@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+   
+    .attribution { font-size: 16px; text-align: center; padding: 25px 0;}
+    .attribution a { 
+      color:  white; 
+      text-decoration: none; 
+
+    }
+</style>
+</head>
+<body>
+
+  <div class="calc-cont">
+    <div class="d-flexM mainCalc" id="mainCalc">
+      <div id="calc"> calc</div>
+      <div id="theme" class="flex">
+        
+          <p>theme</p>
+          <div>
+            <div class="flex toggle-nums" id="toggler">
+               <p id="one">1</p>
+               <p id="two">2</p>
+               <p id="three">3</p>
+            </div>
+
+            <div id="bar">
+              <div id="bar-toggle"></div>
+            </div>
+
+          </div>
+      </div>
+    </div>
+
+    <div class="text-box" id="text-box">
+      
+    </div>
+    <div class="btns-cont">
+
+     <div class="btn-num btnNums" value="9">7</div>
+     <div class="btn-num btnNums"  value="9">8</div>
+     <div class="btn-num btnNums"  value="9">9</div>
+     <div class="btn-num del">DEL</div>
+     <div class="btn-num btnNums">4</div>
+     <div class="btn-num btnNums">5</div>
+     <div class="btn-num btnNums">6</div>
+     <div class="btn-num btnNums">+</div>
+     <div class="btn-num btnNums">1</div>
+     <div class="btn-num btnNums">2</div>
+     <div class="btn-num btnNums">3</div>
+     <div class="btn-num btnNums">-</div>
+     <div class="btn-num btnNums">.</div>
+     <div class="btn-num btnNums">0</div>
+     <div class="btn-num btnNums">/</div>
+     <div class="btn-num btnNums">x</div>
+     <div class="btn-num reset">RESET</div>
+     <div class="btn-num equal" id="equal">=</div>
+     
+
+    </div>
+
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://twitter.com/chinaza_chisom">Chinaza Chisom</a>.
+  </div>
+  </div>
+
+
+  
+  
+
+  <script src="script.js"></script>
+</body>
+
+
+</html>
