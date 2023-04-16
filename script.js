@@ -1,4 +1,5 @@
     
+        
     var btn = document.querySelectorAll('.btnNums');
     var del = document.querySelector('.del');
     var reset = document.querySelector('.reset');
@@ -22,28 +23,28 @@
         btn[i].addEventListener('click', ()=> {
        
         if(btn[i] == btn[14]){
-           textBox.innerHTML += "*";
+           textBox.value += "*";
         }else{
-            textBox.innerHTML += btn[i].textContent;
+            textBox.value += btn[i].textContent;
           
         }
       })
     }
 
     del.addEventListener('click', () => {
-      var screendisplay = textBox.innerText;
-      textBox.innerHTML = screendisplay.substr(0, screendisplay.length-1);
+      var screendisplay = textBox.value;
+      textBox.value = screendisplay.substr(0, screendisplay.length-1);
     })
 
     reset.addEventListener('click', ()=> {
-      textBox.innerHTML =" ";
+      textBox.value =" ";
     })
 
     //  EQUAL TO ( END RESULT)
 
     equal.addEventListener('click', () => {
 
-      textBox.innerHTML = eval(textBox.innerText);
+      textBox.value = eval(textBox.value);
     })
 
 
