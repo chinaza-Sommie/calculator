@@ -81,6 +81,10 @@
       font-weight: bold;
       text-align: right;
       height: 95px;
+      overflow: auto;
+      width:  100%;
+      outline: none;
+      border: none;
     }
 
     button{
@@ -145,7 +149,7 @@
 
     @media screen and (max-width: 600px){
       .calc-cont{
-        margin: 10% 10px 5px 10px;
+        margin: 10px 10px 5px 10px;
         width: 100%;
       }
 
